@@ -1,0 +1,43 @@
+{
+    "name": "davwheat/hide-empty-welcomehero",
+    "description": "Hide your forum&#39;s WelcomeHero component when it is empty.",
+    "keywords": [
+        "flarum"
+    ],
+    "type": "flarum-extension",
+    "license": "MIT",
+    "require": {
+        "flarum/core": "^1.0.0"
+    },
+    "require-dev": {
+        "flarum/testing": "^1.0.0"
+    },
+    "authors": [
+        {
+            "name": "David Wheatley",
+            "email": "hi@davwheat.dev",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Davwheat\\HideEmptyWelcomeHero\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Davwheat\\HideEmptyWelcomeHero\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "davwheat Hide Empty WelcomeHero",
+            "category": "feature",
+            "icon": {
+                "name": "far fa-window-close",
+                "backgroundColor": "#51c5dd",
+                "color": "#000"
+            }
+        }
+    }
+}
